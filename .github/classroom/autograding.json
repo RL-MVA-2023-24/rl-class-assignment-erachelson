@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Agent performance",
+      "setup": "sudo -H pip install -r  requirements.txt ",
+      "run": "python src/main.py && python  -m pytest src/grading.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 60,
+      "points": 1
+    }
+  ]
+}
