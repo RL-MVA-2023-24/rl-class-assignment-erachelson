@@ -81,9 +81,9 @@
       "points": 1
     },
     {
-      "name": "Agent dr performance 3",
+      "name": "Agent performance 2",
       "setup": "sudo -H pip install -r  requirements.txt ",
-      "run": "python src/main.py && python  -m pytest src/grading.py::test_expected_result_dr_env_5e10",
+      "run": "python src/main.py && python  -m pytest src/grading.py::test_expected_result_one_env_1e8",
       "input": "",
       "output": "",
       "comparison": "exact",
